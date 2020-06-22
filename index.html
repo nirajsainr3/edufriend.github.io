@@ -1,61 +1,123 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <meta http-equvi="X-UA-Compatible" content="ie=edg">
-        <link rel="stylesheet" href="style.css">
-        <script src="https://kit.fontawesome.com/49a59661c1.js" crossorigin="anonymous"></script>
-        <title>EDU Friend</title>
-    </head>
-    <body>
-        <header>
-            <section id="logo">
-                this is for logo and name
-            </section>
-            <section id="search">
-                ` <input type="text" name="search" id="search" placeholder="search">
-                    <a><i class="fab fa-searchengin"></i></a>
-            </section>
-            <section id="filter">
-                   <a href="#">
-                   <i class="fas fa-filter"></i>
-                  <span>filter</span>
-                  </a>
-            </section>
-            <section id="slinks">
-                  <a href="#tweeter" title="Twitter" target="_blank"><i class="fab fa-twitter-square"></i></a>
-                  <a href="#facebook" title="Facebook" target="-blank"><i class="fab fa-facebook "></i></a>
-                  <a href="#instagram" title="Instagram" target="_blank"><i class="fab fa-instagram-square "></i></a>
-                  <a href="#github" title="Github" target="_blank"><i class="fab fa-github "></i></a>
-                  <a href="#linked in" title="Linked in" target="_blank"><i class="fab fa-linkedin-in "></i></a>
-            </section>
-        </header>
-        <nav>
-             <ul>
-                <li><a href="#"><i class="fas fa-align-justify"></i>home</a></li>
-                <li><a href="#"><i class="fas fa-align-justify"></i>videos</a></li>
-                <li><a href="#"><i class="fas fa-align-justify"></i>notes</a></li>
-                <li><a href="#"><i class="fas fa-align-justify"></i>prof</a></li>
-                <li><a href="#"><i class="fas fa-align-justify"></i>popular</a></li>
-            </ul>
-        </nav>
-        <div id="promo">
-            <img src="file.jpg" alt="book">
-            <div id="shayri">achi si shayri</div>
-            <div id ="pic">ek achi si img & img kaa bg bhi change karna h</div>
-            <p>
-                it is rightly said that friends are your best teachers. They guide
-                you when every path is in daerhness. thy pull you down when you are
-                 wrong and motivate you when you are right. they where there with you when
-                 nobody else was.they always belive in you and bring the best out of you.
-                 the solve all your problems within a fraction of sec as if the have some magic stick.
-            </p>
-            <div id="animation">
-                  an animation of some imgs
-            </div>
-            <div id="intro">
-                intro to site
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta http-equvi="X-UA-Compatible" content="ie=edg" />
+
+    <link rel="icon" href="./img/favicon.ico" />
+    <script
+      src="https://kit.fontawesome.com/49a59661c1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>EDU Friend</title>
+  </head>
+  <body class="text-center">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+          <img
+            src="./img/favicon.ico"
+            width="30"
+            height="30"
+            class="d-inline-block align-top"
+            alt=""
+            loading="lazy"
+          />
+          Edu Friend
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            <i class="fas fa-filter"></i>
+          </button>
+        </form>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Prof</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="#"> Notes </a>
+            </li>
+          </ul>
         </div>
-    </body>
+      </nav>
+    </header>
+
+    <div class="mt-4">
+      <p>Intro</p>
+      <div class="carousel slide" data-ride="carousel" data-pause="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/dummy1.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/dummy2.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="./img/dummy3.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div>
+      <p>
+        it is rightly said that friends are your best teachers. They guide you
+        when every path is in daerhness. thy pull you down when you are wrong
+        and motivate you when you are right. they where there with you when
+        nobody else was.they always belive in you and bring the best out of you.
+        the solve all your problems within a fraction of sec as if the have some
+        magic stick.
+      </p>
+    </div>
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
